@@ -45,6 +45,7 @@ header .nav-item{
 
 header .navbar-brand{
     padding-left: 4rem;
+    font-family: var(--lobster);
 }
 
 header .col-lg-7{
@@ -73,3 +74,38 @@ header .col-lg-7 button{
 /* header ends here */
 /* main starts here */
 /* Section-1 */
+.section-1{
+    padding: 20vmin 0;
+}
+
+.section-1 .col-lg-6 img{
+    opacity: 0.8;
+    width: 80%;
+    border-radius: 0.2rem;
+}
+
+.section-1 .col-lg-6:last-child{
+    position: relative;
+}
+
+.section-1 .panel{
+    position: absolute;
+    top: 7vmin;
+    left: -18vmin;
+    background: #fff;
+    border-radius: 3px;
+    text-align: left;
+    padding: 13vmin 5vmin 20vmin 10vmin;
+    box-shadow: 0 25px 42px rgba(0,0,0,0.2);
+    font-family: var(--poppins);
+}
+
+.section-1 h1{
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: var(--oswald);
+}
+
+/* section-1 ends here */
+/* section-2 starts here */
+
