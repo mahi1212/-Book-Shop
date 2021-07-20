@@ -1,0 +1,75 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Oswald&family=Poppins&display=swap');
+
+/* Utilities Starts here */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --lobster:'Lobster',sans-serif, cursive;
+    --oswald:'Oswald', sans-serif;
+    --poppins: 'Poppins', sans-serif;
+}
+
+/* header starts here */
+navbar,
+header{
+    overflow: hidden;
+}
+.nav-link,
+.navbar-brand{
+    font-family: var(--poppins);
+    font-size: 1em;
+    color: #fff;
+}
+
+header{
+    background: #dd2476;
+    background: var(--bggradient);
+    background: linear-gradient(to bottom ,
+     #dd2476, #ff512f
+    );
+    color: #fff;
+}
+
+header .nav-item:last-child{
+    padding-right: 4rem;
+}
+
+header .nav-item{
+    padding: 0.9rem;
+}
+
+header .navbar-brand{
+    padding-left: 4rem;
+}
+
+header .col-lg-7{
+    font-family: var(--poppins);
+    padding: 30px 70px;
+    margin-top: 120px;
+}
+
+header .col-lg-7 h6{
+    letter-spacing: 4px;
+    font-weight: 700;
+}
+
+header .col-lg-7 h1{
+    font-size: 3rem;
+    padding: 1rem 0;
+    font-weight: bold;
+    font-family: var(--oswald);
+    letter-spacing: 5px;
+}
+
+header .col-lg-7 button{
+    border-radius: 30px;
+    font-weight: bold;
+}
+/* header ends here */
+/* main starts here */
+/* Section-1 */
