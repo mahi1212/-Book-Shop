@@ -150,10 +150,51 @@ header .col-lg-7 button{
 
 .members{
     margin-top: -15vmin;
+    font-family: var(--poppins);
 }
 
 .members h1{
     font-size: 5rem;
     color: tomato;
 }
+
+/* Purchase part */
+.purchase >h1{
+    padding-top: 15vmin;
+    padding-bottom: 0.1em;
+    font-family: var(--lobster);
+}
+.purchase > p{
+    color: rgba(0,0,0,0.3);
+    font-size: 3vmin;
+    padding-bottom: 10vmin;
+}
+
+.purchase .cards .card{
+    width: 22rem;
+    margin: 3vmin;
+}
+
+.card-title{
+    background: rgba(0,0,0,0.1);
+    padding: 1.5rem 2.5rem;
+    text-transform: uppercase;
+}
+.card-text{
+    padding: 2.5rem 3rem;
+    color: rgba(0,0,0,0.3);
+}
+
+.card .pricing{
+    background: rgba(0,0,0,0.1);
+    border-top-right-radius: 170px;
+    border-top-left-radius: 170px;
+}
+
+.card .pricing > h1{
+    font-size: 10vmin;
+    padding: 2rem 0.5rem;
+}
+
+
 
