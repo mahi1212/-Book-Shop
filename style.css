@@ -136,3 +136,24 @@ header .col-lg-7 button{
     color: #fff;
     font-family: var(--poppins);
 }
+
+.members .col-lg-3{
+    position: relative;
+    background: #fff;
+    width: 17rem;
+    height: 12rem;
+    padding-top: 3.5vmin;
+    margin: 1rem;
+    border-radius: 0.5rem;
+    box-shadow: 1px 2px 50px 0 rgba(255,0,0,0.345);
+}
+
+.members{
+    margin-top: -15vmin;
+}
+
+.members h1{
+    font-size: 5rem;
+    color: tomato;
+}
+
