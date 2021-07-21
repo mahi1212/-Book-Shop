@@ -208,6 +208,7 @@ header .col-lg-7 button{
     padding: 2em 0 0.5em 0;
     color: whitesmoke;
     font-size: 6vmin;
+    font-family: var(--poppins);
   }
   
   .section-3 .col-sm-12 > p {
@@ -215,6 +216,7 @@ header .col-lg-7 button{
     padding-bottom: 2em;
     color: rgba(0,0,0,0.3);
     font-size: 3vmin;
+    font-family: var(--poppins);
   }
   
   .section-3 .desktop {
@@ -227,9 +229,55 @@ header .col-lg-7 button{
   
   .section-3 .desktop h3 {
     font-size: 4vmin;
+    font-family: var(--poppins);
   }
   
   .section-3 .desktop p {
     font-size: 2vmin;
   }
-  
+
+  /* Section-4 */
+  .section-4 .container h1{
+    padding-top: 10vmin;
+    font-size: 6vmin;  
+    font-family: monospace; 
+  }
+
+  .section-4 .team{
+    padding: 10vmin 4vmin;
+  }
+
+  .section-4 .card{
+      width: 25rem;
+      margin-top: 10vmin;
+  }
+
+  .section-4 .card-body>a{
+      font-size: 1.4rem;
+      color: seagreen;
+  }
+
+  .border-radius{
+      border-radius: 340px;
+      width: 60%;
+  }
+
+  /* main ends here */
+  /* footer starts here */
+
+  footer{
+      padding: 3rem 7rem;
+  }
+
+  footer p > span{
+      color: rgb(235, 74, 46);
+  }
+
+  footer .row .col-md-5 .text-light,
+  footer .row .col-md-2 .text-light{
+    margin-bottom: 2rem;
+  }
+
+  footer .row .col-md-2 img{
+      cursor: pointer;
+  }

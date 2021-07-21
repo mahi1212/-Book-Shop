@@ -11,6 +11,8 @@
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <!------------------- Custome CSS -------------------->
     <link rel="stylesheet" href="style.css">
+    <!------------------- Custome CSS for MOBILE -------------------->
+    <link rel="stylesheet" href="mobile-style.css">
 </head>
 <body>
     <!-- header starts here -->
@@ -198,7 +200,7 @@
                     </div>
                   </div>
                 </div>
-            </div>>
+            </div>
         </section>
         <!-- section-4 stats here -->
         <section class="section-4">
@@ -207,20 +209,20 @@
                 <p>Lorem ipsum dolor sit amet.</p>
             </div>
             <div class="team row">
-                <div class="col-md-4 col-12 text-center">
+                <div class=" col-lg-4 col-12 text-center">
                     <div class="card mr-2 d-inline-block shadow-lg">
                         <div class="card-img">
-                            <img src="images/UI-face-3.jpg" class="img-fluid" alt="member">
+                            <img src="images/UI-face-3.jpg" class="img-fluid p-4 border-radius" alt="member">
                         </div>
                         <div class="card-body">
                             <h3 class="card-title">Blalock Jolene</h3>
                             <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint iure autem recusandae, veniam, illo dolor soluta assumenda minima quia velit officia sit exercitationem nam ipsa, repellendus aut facilis quasi voluptas!</p>
-                            <a href="" class="text-secondary text-decoration-none">Go Somewhere</a>
+                            <a href="" class="text-decoration-none">Go Somewhere</a>
                             <p class="text-black-50">CEO of Google</p>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4 col-12 text-center">
+                <div class=" col-lg-4 col-12 text-center">
                     <!-- Carousel started -->
                     <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
                         <div class="carousel-inner">
@@ -228,12 +230,12 @@
                                 <!-- Card-2 -->
                                 <div class="card mr-2 d-inline-block shadow-lg">
                                     <div class="card-img">
-                                        <img src="images/UI-face-1.jpg" class="img-fluid" alt="member">
+                                        <img src="images/UI-face-1.jpg" class="w-50 rounded-2 p-4 img-fluid" alt="member">
                                     </div>
                                     <div class="card-body">
                                         <h3 class="card-title">Allen Ages</h3>
                                         <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint iure autem recusandae, veniam, illo dolor soluta assumenda minima quia velit officia sit exercitationem nam ipsa, repellendus aut facilis quasi voluptas!</p>
-                                        <a href="" class="text-secondary text-decoration-none">Go Somewhere</a>
+                                        <a href="" class="text-decoration-none">Go Somewhere</a>
                                         <p class="text-black-50">CEO of Google</p>
                                     </div>
                                 </div>
@@ -241,12 +243,12 @@
                             <div class="carousel-item">
                                 <div class="card mr-2 d-inline-block shadow-lg">
                                     <div class="card-img">
-                                        <img src="images/UI-face-2.jpg" class="img-fluid" alt="member">
+                                        <img src="images/UI-face-2.jpg" class="w-50 rounded-2 p-4 img-fluid" alt="member">
                                     </div>
                                     <div class="card-body">
                                         <h3 class="card-title">Amiel Barbara</h3>
                                         <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint iure autem recusandae, veniam, illo dolor soluta assumenda minima quia velit officia sit exercitationem nam ipsa, repellendus aut facilis quasi voluptas!</p>
-                                        <a href="" class="text-secondary text-decoration-none">Go Somewhere</a>
+                                        <a href="" class=" text-decoration-none">Go Somewhere</a>
                                         <p class="text-black-50">CEO of Google</p>
                                     </div>
                                 </div>
@@ -254,10 +256,10 @@
                         </div>
                       </div>
                 </div>
-                <div class="col-md-4 col-12 text-center">
+                <div class=" col-lg-4 col-12 text-center">
                     <div class="card mr-2 d-inline-block shadow-lg">
                         <div class="card-img">
-                            <img src="images/UI-face-4.jpg" class="img-fluid" alt="member">
+                            <img src="images/UI-face-4.jpg" class="border-radius p-4 img-fluid" alt="member">
                         </div>
                         <div class="card-body">
                             <h3 class="card-title">Olivia Louis</h3>
@@ -271,28 +273,28 @@
         </section>
     </main>
     <!-- footer starts here -->
-    <footer>
-        <div class="p-0 container-fluid mt-5 bg-dark">
+    <footer class="bg-dark">
+        <div class="p-0 container-fluid mt-5">
             <div class="row text-start">
-                <div class="col-md-5 col-sm-5">
+                <div class="col-md-12 col-lg-4 col-sm-5">
                     <h1 class="text-light">About Us</h1>
                     <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum maxime ea similique illum corrupti</p>
                     <p class="text-muted pt-4">Copyright ©2019 All rights reserved | This template is made with by <span>M Rahman Mahi</span></p>
                 </div>
-                <div class="col-md-5">
+                <div class="col-md-6 col-lg-4">
                     <h1 class="text-light">Newsletter</h1>
                     <p class="text-muted">Stay Updated</p>
                     <form action="mailto:mahi121.mr@gmail.com">
                         <div class="col ps-0">
                             <div class="input-group pe-5">
-                                <input type="email" placeholder="Email" name="email" id="email" class="w-50 rounded bg-dark text-white">
+                                <input type="email" class="bg-white fs-4 ps-4" placeholder="Email" name="email" id="email" class="w-50 rounded bg-dark text-white">
                                 <i class="fas fa-arrow-right fa-3x px-2" style="color: aqua; background-color: brown;"></i>
                             </div>
                         </div>
                     </form>
                 </div>
-                <div class="col-md-2">
-                    <h1 class="text-light">About Us</h1>
+                <div class="ps-3 col-md-6 col-lg-4">
+                    <h1 class="text-light">Follow Us</h1>
                     <p class="text-muted">Let us be social</p>
                     <div>
                         <img src="https://img.icons8.com/bubbles/50/000000/facebook-new.png"/>

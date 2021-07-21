@@ -1,0 +1,67 @@
+@media screen and (max-width: 768px){
+    header .navbar-brand{
+        padding-left:1rem;
+        font-size: 2rem;
+    }
+
+    .section-1 .pray{
+        position: relative;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+
+    }
+
+    .section-1 .panel{
+        margin-left: 20vmin;
+    }
+
+    .section-2{
+        margin-top: 400px;
+    }
+
+    .section-3{
+        padding-left: 6vmin 4vmin;
+    }
+    .section-3 .row .col-md-6{
+        text-align: center !important;
+    }
+
+    .purchase .cards .card{
+        width: 35rem;
+    }
+
+    .purchase .cards .card-title{
+        font-size: 2rem;
+    }
+
+    .purchase .cards p{
+        font-size: 2rem;
+    }
+    .section-4{
+        margin-top: 200px;
+    }
+
+    .section-4 .card{
+        width:30rem ;
+    }
+}
+
+@media screen and (max-width: 375px){
+    header .navbar-brand{
+        font-size: 1rem;
+    }
+
+    .purchase .cards .card{
+        width: 20rem;
+    }
+
+    .section-4 .card{
+        width: 20rem;
+    }
+
+    footer input[type="email"]{
+        width: 100%;
+
+    }
+}
